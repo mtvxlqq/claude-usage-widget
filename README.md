@@ -19,20 +19,13 @@
 
 ---
 
-```
-┌──────────────────────────────────────────────┐
-│  СЕССИЯ · 5Ч                          42%    │
-│  ● ● ● ● ● ● ● ○ ○ ○ ○ ○ ○ ○ ○ ○    02:17:45  │
-│  1.2M ТОК · 38.4K OUT                        │
-│                                              │
-│  НЕДЕЛЯ                               17%    │
-│  ● ● ● ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○  03.11 09:00 │
-│  8.7M ТОК · 4Д 6Ч                            │
-│                                              │
-│  CLAUDE                              14:05   │
-└──────────────────────────────────────────────┘
-```
-<sub>Widget sketch. Dotted bars and the [Doto](https://github.com/oliverlalan/Doto) font follow the Nothing OS look. The widget UI is currently in Russian.</sub>
+<div align="center">
+
+<img src="docs/screenshot.png" alt="Claude Usage Widget on an Android home screen" width="340">
+
+<sub>Real widget on the home screen: 5-hour session on the left, weekly limit on the right. The widget UI is in Russian.</sub>
+
+</div>
 
 ## ✦ Features
 
