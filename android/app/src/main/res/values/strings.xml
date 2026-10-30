@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Claude Usage</string>
+    <string name="widget_desc">Токены и время до сброса лимитов Claude</string>
+</resources>

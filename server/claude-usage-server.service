@@ -1,0 +1,12 @@
+[Unit]
+Description=Claude usage server for Android widget
+
+[Service]
+Environment=PORT=8765
+EnvironmentFile=%h/.config/claude-usage-server.env
+ExecStart=/usr/bin/python3 -I %h/development/claude-usage-widget/server/claude_usage_server.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

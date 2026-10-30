@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/doto"
+            android:text="CLAUDE"
+            android:textColor="@color/nt_white"
+            android:textSize="44sp" />
+
+        <TextView
+            style="@style/NtLabel"
+            android:layout_marginBottom="32dp"
+            android:text="USAGE WIDGET" />
+
+        <TextView
+            style="@style/NtLabel"
+            android:text="АДРЕС СЕРВЕРА" />
+
+        <EditText
+            android:id="@+id/server_url"
+            style="@style/NtInput"
+            android:hint="https://fedora.xxxx.ts.net"
+            android:importantForAutofill="no"
+            android:inputType="textUri" />
+
+        <TextView
+            style="@style/NtLabel"
+            android:layout_marginTop="20dp"
+            android:text="КЛЮЧ" />
+
+        <EditText
+            android:id="@+id/server_key"
+            style="@style/NtInput"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/save"
+            style="@style/NtButton"
+            android:layout_marginTop="28dp"
+            android:text="СОХРАНИТЬ И ПРОВЕРИТЬ" />
+
+        <Button
+            android:id="@+id/battery"
+            style="@style/NtButton"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/nt_button_outline"
+            android:text="РАЗРЕШИТЬ РАБОТУ В ФОНЕ"
+            android:textColor="@color/nt_white" />
+
+        <TextView
+            android:id="@+id/result"
+            style="@style/NtLabel"
+            android:layout_width="match_parent"
+            android:layout_marginTop="24dp"
+            android:letterSpacing="0"
+            android:maxLines="100"
+            android:textColor="@color/nt_grey"
+            android:textIsSelectable="true"
+            android:textSize="12sp" />
+    </LinearLayout>
+</ScrollView>

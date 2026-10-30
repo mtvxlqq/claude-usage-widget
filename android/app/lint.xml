@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- приложение только на русском и не публикуется в Google Play -->
+    <issue id="HardcodedText" severity="ignore" />
+    <issue id="SetTextI18n" severity="ignore" />
+    <issue id="BatteryLife" severity="ignore" />
+    <!-- атрибуты виджета для Android 12+, старые версии их просто игнорируют -->
+    <issue id="UnusedAttribute" severity="ignore" />
+    <issue id="AndroidGradlePluginVersion" severity="ignore" />
+</lint>

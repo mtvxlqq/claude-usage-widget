@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- точечная «C» на чёрном -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="#000000" android:pathData="M24,0a24,24 0 1,0 0.01,0z" />
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M20,13m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0
+            M26,13m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0
+            M32,15m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0
+            M15,18m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0
+            M14,24m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0
+            M15,30m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0
+            M20,35m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0
+            M26,35m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0
+            M32,33m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+</vector>

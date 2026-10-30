@@ -1,0 +1,36 @@
+# ── Android / Gradle ─────────────────────────────
+.gradle/
+.kotlin/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+# путь к Android SDK — у каждого свой
+local.properties
+
+# собранные приложения
+*.apk
+*.aab
+
+# ключи подписи
+*.jks
+*.keystore
+
+# ── IDE ──────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+
+# ── Python ───────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+
+# ── Секреты и окружение ──────────────────────────
+.env
+*.env
+
+# ── Система ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+*~

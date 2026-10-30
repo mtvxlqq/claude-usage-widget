@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- полоска из точек: уровень ClipDrawable (0..10000) открывает белые точки слева -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/dots_off" />
+    <item>
+        <clip
+            android:clipOrientation="horizontal"
+            android:drawable="@drawable/dots_on"
+            android:gravity="start" />
+    </item>
+</layer-list>
